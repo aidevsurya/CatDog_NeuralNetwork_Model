@@ -5,10 +5,14 @@ This program works in multiple part, First - simply download the Dataset of Cat 
 # Installation
 <code> pip install -r requirements.txt </code>
 
-# Run The Program
+# Run with Existing Model
+<code> python Test_This.py </code> <br>
+This will run the Program and Predict the result from Test Folder Images<br>
+
+# Run Program from the Beginning
 <code> python Dataset_Creator.py </code> <br>
 This will create the dataset of Cat, Dog, Human Faces <br>
-then Clean unwanted images and Move all images folder (Cat, Dog, RealHumanFace) inside Folder - Train <br>
+then Clean unwanted images and Move all images folder (Cat, Dog, Human) inside Folder - Train <br>
 and from subset of these images create 8:2 images for validation, You can do in 8:2 ratio = Train:Val folders <br>
 <code> python Dataset_Rename.py </code> <br>
 this will preprocess the images <br>
