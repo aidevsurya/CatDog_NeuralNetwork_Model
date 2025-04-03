@@ -7,6 +7,7 @@ This program works in multiple part, First - simply download the Dataset of Cat 
 
 # Run The Program
 <code> python Dataset_Creator.py </code> <br>
+This will create the dataset of Cat, Dog, Human Faces <br>
 then Clean unwanted images and Move all images folder (Cat, Dog, RealHumanFace) inside Folder - Train <br>
 and from subset of these images create 8:2 images for validation, You can do in 8:2 ratio = Train:Val folders <br>
 <code> python Dataset_Rename.py </code> <br>
