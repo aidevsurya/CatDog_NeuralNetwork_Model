@@ -2,6 +2,9 @@
 This is the small program for students who are beginner in neural network and machine learning.<br>
 This program works in multiple part, First - simply download the Dataset of Cat and Dog images Then Preprocessing part comes which converts the other format images in JPEG and rename it well, Then Model Training Starts and then Testing or Predicting.
 
+# Installation
+<code> pip install -r requirements.txt </code>
+
 # Run The Program
 <code> python Dataset_Creator.py </code> <br>
 then Clean unwanted images and Move all images folder (Cat, Dog, RealHumanFace) inside Folder - Train <br>
